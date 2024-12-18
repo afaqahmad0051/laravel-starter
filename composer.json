@@ -1,0 +1,28 @@
+{
+    "name": "afaq/laravel-starter-package",
+    "description": "Laravel starter setup package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Afaq\\LaravelStarterPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Afaq Ahmad",
+            "email": "afaqa0051@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "illuminate/support": "^11.36",
+        "laravel/framework": "^11.36"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Afaq\\LaravelSetupTools\\LaravelSetupToolsServiceProvider"
+            ]
+        }
+    }
+}
