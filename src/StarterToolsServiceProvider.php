@@ -1,6 +1,6 @@
 <?php
 
-namespace Afaq\StarterTools;
+namespace Afaq\LaravelStarterPackage;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -15,7 +15,7 @@ class StarterToolsServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../config/pint.json' => base_path('pint.json'),
             __DIR__ . '/../config/phpstan.neon' => base_path('phpstan.neon'),
-        ], 'laravel-setup-tools-config');
+        ], 'laravel-starter-tools-config');
     }
 
     /**

@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Afaq\\LaravelStarterPackage\\LaravelStarterPackageServiceProvider"
+                "Afaq\\LaravelStarterPackage\\StarterToolsServiceProvider"
             ]
         }
     },
