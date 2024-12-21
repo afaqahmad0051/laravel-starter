@@ -14,15 +14,23 @@
             "email": "afaqa0051@gmail.com"
         }
     ],
-    "require-dev": {
-        "illuminate/support": "^11.36",
+    "require": {
         "laravel/framework": "^11.36"
+    },
+    "require-dev": {
+        "illuminate/support": "^11.36"
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Afaq\\LaravelSetupTools\\LaravelSetupToolsServiceProvider"
+                "Afaq\\LaravelStarterPackage\\LaravelStarterPackageServiceProvider"
             ]
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/afaqahmad0051/laravel-starter.git"
+        }
+    ]
 }
