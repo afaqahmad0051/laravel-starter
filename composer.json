@@ -15,7 +15,9 @@
         }
     ],
     "require": {
-        "laravel/framework": "^11.36"
+        "laravel/framework": "^11.36",
+        "laravel/pint": "^1.18.2",
+        "phpstan/phpstan": "^2.0.3"
     },
     "require-dev": {
         "illuminate/support": "^11.36"
